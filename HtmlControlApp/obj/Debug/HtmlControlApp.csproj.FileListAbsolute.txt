@@ -1,0 +1,7 @@
+C:\Users\Julien\source\repos\HtmlControlApp\bin\Debug\HtmlControlApp.exe.config
+C:\Users\Julien\source\repos\HtmlControlApp\bin\Debug\HtmlControlApp.exe
+C:\Users\Julien\source\repos\HtmlControlApp\bin\Debug\HtmlControlApp.pdb
+C:\Users\Julien\source\repos\HtmlControlApp\obj\Debug\HtmlControlApp.csprojAssemblyReference.cache
+C:\Users\Julien\source\repos\HtmlControlApp\obj\Debug\HtmlControlApp.csproj.CoreCompileInputs.cache
+C:\Users\Julien\source\repos\HtmlControlApp\obj\Debug\HtmlControlApp.exe
+C:\Users\Julien\source\repos\HtmlControlApp\obj\Debug\HtmlControlApp.pdb
