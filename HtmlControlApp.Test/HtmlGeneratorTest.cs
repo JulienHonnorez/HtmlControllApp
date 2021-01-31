@@ -6,6 +6,9 @@ namespace HtmlControlApp.Test
     [TestClass]
     public class HtmlGeneratorTest
     {
+        /// <summary>
+        /// Allow to test the single tag generation with innerHtml content.
+        /// </summary>
         [TestMethod]
         public void GenerateTag_WithInnerText()
         {
@@ -24,6 +27,9 @@ namespace HtmlControlApp.Test
             Assert.AreEqual(expected, actual);
         }
 
+        /// <summary>
+        /// Allow to test the single tag generation without innerHtml content.
+        /// </summary>
         [TestMethod]
         public void GenerateTag_WithoutInnerText()
         {
@@ -41,6 +47,9 @@ namespace HtmlControlApp.Test
             Assert.AreEqual(expected, actual);
         }
 
+        /// <summary>
+        /// Allow to test the tree generation method using HtmlGenericControl class
+        /// </summary>
         [TestMethod]
         public void GenerateTreeExample_Test()
         {

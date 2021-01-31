@@ -11,10 +11,21 @@ namespace HtmlControlApp
 {
     public class HtmlGenerator : HtmlContainerControl
     {
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public HtmlGenerator()
         {
         }
 
+        /// <summary>
+        /// Generate a single tag containing innerText content or not.
+        /// </summary>
+        /// <param name="tag">The tag to generate</param>
+        /// <param name="id">The tag's id to add as tag's attribute</param>
+        /// <param name="name">The tag's name to add as tag's attribute</param>
+        /// <param name="innexText">The content to put inside the tag</param>
+        /// <returns></returns>
         public string GenerateTag(string tag, string id, string name, string innexText = null)
         {
             StringBuilder sbControlHtml = new StringBuilder();
@@ -41,6 +52,10 @@ namespace HtmlControlApp
             }
         }
 
+        /// <summary>
+        /// Allow to generate a 4 level tree example using HtmlGenericControl class
+        /// </summary>
+        /// <returns></returns>
         public string GenerateTreeExample()
         {
             StringBuilder sbControlHtml = new StringBuilder();
@@ -83,9 +98,15 @@ namespace HtmlControlApp
             }
         }
 
-        public HtmlGenericControl FindControlElement(Page page, string controlTagName)
+        /// <summary>
+        /// Allow to find a specific control inside Html page based on its ID.
+        /// </summary>
+        /// <param name="page">The html page</param>
+        /// <param name="controlId">The control's id to search</param>
+        /// <returns></returns>
+        public HtmlGenericControl FindControlElement(Page page, string controlId)
         {
-            return (HtmlGenericControl)page.FindControl(controlTagName);
+            return (HtmlGenericControl)page.FindControl(controlId);
         }
 
         //public string XElementMethod()
